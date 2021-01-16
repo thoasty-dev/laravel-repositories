@@ -1,0 +1,20 @@
+{
+    "name": "thoasty-dev/laravel-repositories",
+    "description": "Repositories for laravel",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "8.*"
+    },
+    "authors": [
+        {
+            "name": "Thorsten",
+            "email": "thorsten@thoasty.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "thoasty\\LaravelRepositories\\": "src/"
+        }
+    }
+}
